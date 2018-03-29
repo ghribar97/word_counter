@@ -1,26 +1,31 @@
-##Word Counter
+Word Counter
+============
 Print byte, word, and line counts, count the number of bytes, whitespace-separated words, and newlines in each given FILE.
 A word is a non-zero -length sequence of characters delimited by white space.
 
-##Installation
+Installation
+============
 1. download and install python3 from[www.python.org](https://www.python.org/downloads/)
 2. download [wordCounter.py](https://github.com/ghribar97/word_counter/blob/master/wordCounter.py) file 
 
-##Run
+Run
+===
 Open the folder with **wordCounter.py** file in a console.
 
 Follow the given syntax or type "python wordCounter.py --help" for mor information.
 
 
-##Syntax:
+##Syntax
+========
 
 python3 wordCounter.py [-h] [-c] [-m] [-w] [-l] [-L] [--version] [FILE]
 
-##Version:
+##Version
+==========
 This is my implementation of the (well known) Linux program [WC](https://ss64.com/bash/wc.html) (Word Counter) 
 
-###Time comparison with the original WC:
-
+Time comparison with the original WC:
+-------------------------------------
 For the comparison I have prepared a file TestFile.txt.
 In the console we run this two commands:
     
