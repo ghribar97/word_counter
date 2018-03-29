@@ -12,21 +12,22 @@ Run
 ===
 Open the folder with **wordCounter.py** file in a console.
 
-Follow the given syntax or type "python wordCounter.py --help" for mor information.
+Follow the given syntax or type ```python wordCounter.py --help```  for mor information.
 
 
-##Syntax
-========
+Syntax
+======
 
 python3 wordCounter.py [-h] [-c] [-m] [-w] [-l] [-L] [--version] [FILE]
 
-##Version
-==========
+Version
+=======
 This is my implementation of the (well known) Linux program [WC](https://ss64.com/bash/wc.html) (Word Counter) 
 
 Time comparison with the original WC:
 -------------------------------------
-For the comparison I have prepared a file TestFile.txt.
+For the comparison I have prepared a file [TestFile.txt](https://github.com/ghribar97/word_counter/blob/master/TestFile.txt).
+
 In the console we run this two commands:
     
 1. ```time python3 wordCounter.py -w -m -l -c -L TestFile.txt``` 
