@@ -67,7 +67,7 @@ class ProcessFile:
         self.switches = switches
 
     def get_file_content(self, source):
-        file = open(source, "r")  # file is already validated. Check function "validate_file" for details
+        file = open(source, "r", encoding="utf-8")  # file is already validated. Check function "validate_file" for details
         text = file.read()
         file.close()
         return text
@@ -101,9 +101,9 @@ class ProcessFile:
         return getsize(self.file)
 
     def count_max_line_length(self):
-        if len(self.content) == 0:
+        if len(self.content.split("\n")) == 0:
             return 0
-        return len(max(self.content.split(), key=len))
+        return len(max(self.content.split("\n"), key=len))
 
 
 def main():
