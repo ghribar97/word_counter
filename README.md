@@ -12,7 +12,7 @@ Run
 ===
 Open the folder with **wordCounter.py** file in a console.
 
-Follow the given syntax or type ```python wordCounter.py --help```  for mor information.
+Follow the given syntax or type ```python3 wordCounter.py --help```  for mor information.
 
 
 Syntax
